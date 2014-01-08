@@ -3169,7 +3169,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="U$2" library="SparkFun-Passives" deviceset="GND_CONNECT" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M06" device="LOCK"/>
-<part name="U$3" library="SparkFun-Passives" deviceset="GND_CONNECT" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="M02LOCK"/>
 <part name="U2" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="DVCC"/>
 <part name="U3" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="CPVDD"/>
@@ -3205,7 +3204,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <instance part="C3" gate="G$1" x="17.78" y="50.8"/>
 <instance part="U$2" gate="G$1" x="-10.16" y="116.84" rot="R90"/>
 <instance part="JP2" gate="G$1" x="139.7" y="81.28" rot="R180"/>
-<instance part="U$3" gate="G$1" x="-30.48" y="116.84" rot="R90"/>
 <instance part="JP4" gate="G$1" x="25.4" y="187.96"/>
 <instance part="U2" gate="G$1" x="55.88" y="139.7"/>
 <instance part="U3" gate="G$1" x="55.88" y="162.56"/>
@@ -3281,11 +3279,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <wire x1="45.72" y1="182.88" x2="71.12" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="182.88" x2="86.36" y2="182.88" width="0.1524" layer="91"/>
 <label x="88.9" y="182.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-38.1" y1="127" x2="-38.1" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="AGND"/>
-<label x="-38.1" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LRCK" class="0">
@@ -3384,9 +3377,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <segment>
 <pinref part="U$2" gate="G$1" pin="DGND"/>
 <wire x1="-7.62" y1="127" x2="-7.62" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="127" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="DGND"/>
-<label x="-27.94" y="129.54" size="1.778" layer="95"/>
 <label x="-7.62" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
